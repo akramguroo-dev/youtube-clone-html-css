@@ -1,0 +1,46 @@
+.filter-bar {
+  height: 56px;
+  padding-bottom: 0px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 56px;
+  left: 72px;
+  right: 0;
+  z-index: 100;
+
+  background-color: white;
+}
+
+.filter-bar div {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 0px none rgb(15, 15, 15);
+  border-radius: 8px;
+  color: rgb(15, 15, 15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  height: 32px;
+  padding: 0px 12px;
+  margin-right: 12px;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.button:active {
+  background-color: black;
+  color: white;
+}

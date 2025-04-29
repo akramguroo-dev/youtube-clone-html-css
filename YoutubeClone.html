@@ -1,0 +1,291 @@
+<!--This is the HTML Code for YouTube Clone-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/filter-bar.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/video.css">
+    
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <button class="hamburger-menu-button">
+          <div class="hamburger-menu-div">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+          </div>
+        </button>
+        <button class="youtube-logo-button">
+          <div>
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+          </div>
+          <p class="country-code">IN</p>
+        </button>
+      </div>
+      <div class="middle-section">
+          <input class="search-bar" type="text" placeholder="Search">
+          <button class="search-button">
+            <img class="search-icon" src="icons/search-icon.svg">
+            <!-- Put position absolute inside position relative -->
+            <div class="tooltip">Search</div>
+          </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <div class="upload-icon">
+            <img src="icons/upload.svg">
+          </div>
+          <div class="create">
+            Create
+          </div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications-icon.svg">
+          <div class="tooltip">Notifications</div>
+        </div>
+        <div class="channel-picture-container">
+          <button>
+            <img class="current-user" src="channel-pictures/current-user.jpg">
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="filter-bar">
+      <div style="
+        background-color: black;
+        color: white;
+        ">
+        All
+      </div>
+      <div class="button">
+        Live
+      </div>
+      <div class="button">
+        Music
+      </div>
+      <div class="button">
+        Adhan
+      </div>
+      <div class="button">
+        Web Development
+      </div>
+      <div class="button">
+        Religious recitation
+      </div>
+      <div class="button">
+        Computer programming
+      </div>
+      <div class="button">
+        Data Structures
+      </div>
+      <div class="button">
+        Los Angleles Fire Department
+      </div>
+      <div class="button">
+        Mixes
+      </div>
+      <div class="button">
+        Playlists
+      </div>
+      <div class="button">
+        Muhammed Al-Muqit
+      </div>
+    </nav>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+        <div class="tooltip">Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/shorts.svg">
+        <div>Shorts</div>
+        <div class="tooltip">Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+        <div class="tooltip">Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/current-user.svg">
+        <div>You</div>
+        <div class="tooltip">You</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/downloads.svg">
+        <div>Downloads</div>
+        <div class="tooltip">Downloads</div>
+      </div>
+    </nav>
+    
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.avif">
+            <div class="video-time">6:40</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                4 Habits That Will Make You a Better Programmer
+              </p>
+              <p class="video-author">
+                WebBraces
+              </p>
+              <p class="video-stats">
+                211K views &#183; 2 months ago
+              </p>
+           </div>
+            <div class="three-dots-container">
+             <img class="three-dots" src="icons/three-dot.svg">
+           </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.avif">
+            <div class="video-time">4:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                How to create Floating input Label Using HTML and CSS | CSS Tutorial
+              </p>
+              <p class="video-author">
+                CodingClassic
+              </p>
+              <p class="video-stats">
+                11K views &#183; 5 months ago
+              </p>
+           </div>
+           <div class="three-dots-container">
+            <img class="three-dots" src="icons/three-dot.svg">
+          </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.avif">
+            <div class="video-time">11:31</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                How to Start LeetCode from ZERO in 2025
+              </p>
+              <p class="video-author">
+                Ashish Pratap Singh
+              </p>
+              <p class="video-stats">
+                24K views &#183; 1 day ago
+              </p>
+           </div>
+           <div class="three-dots-container">
+            <img class="three-dots" src="icons/three-dot.svg">
+          </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.avif">
+            <div class="video-time">8:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+               2 Years of C++ Programming
+              </p>
+              <p class="video-author">
+                Zyger
+              </p>
+              <p class="video-stats">
+                252K views &#183; 1 months ago
+              </p>
+           </div>
+           <div class="three-dots-container">
+            <img class="three-dots" src="icons/three-dot.svg">
+          </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.avif">
+            <div class="video-time">27:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                12 VS Code Extensions to INCREASE Productivity 2024
+              </p>
+              <p class="video-author">
+                Devression
+              </p>
+              <p class="video-stats">
+                854K views &#183; 10 months ago
+              </p>
+           </div>
+           <div class="three-dots-container">
+            <img class="three-dots" src="icons/three-dot.svg">
+          </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.avif">
+            <div class="video-time">10:04</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                How to build logics in programming
+              </p>
+              <p class="video-author">
+                Chai aur Code
+              </p>
+              <p class="video-stats">
+                462K views &#183; 1 year ago
+              </p>
+           </div>
+           <div class="three-dots-container">
+            <img class="three-dots" src="icons/three-dot.svg">
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
