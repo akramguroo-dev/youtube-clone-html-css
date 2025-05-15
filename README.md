@@ -14,7 +14,7 @@ A static clone of the YouTube homepage built using HTML and CSS.
 ![Project Demo](./screenshots/demo.png)
 
 ## Live Demo
-(https://akramguroo-dev.github.io/youtube-clone-html-css/)
+🔗 [View Project on GitHub Pages](https://akramguroo-dev.github.io/youtube-clone-html-css/)
 
 ## Author
 - Akram Guroo (github.com/akramguroo-dev)
